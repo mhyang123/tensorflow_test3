@@ -1,5 +1,6 @@
-'''
 
+'''
+##에러 있음
 import  tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
@@ -63,6 +64,7 @@ test_ys = mnist.test.labels
 
 print('정확도: ', sess.run(accuracy, {X: test_xs, Y: test_ys}))
 '''
+##----쌤 코딩---
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
